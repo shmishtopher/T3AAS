@@ -53,9 +53,23 @@ async function main () {
 
 main()
 ```
-```
+```Python
 # Tic-Tac-Toe with Python
 import requests
 
+init = requests.get('https://t3aas--christopherschmitt.repl.co/?cmd=NEW').json()
 
+if (init['ok']):
+  print(init['state'][0:3])
+  print(init['state'][3:6])
+  print(init['state'][6:9])
 
+  while 1:
+    move = input('Enter yout move:')
+    board = requests.get('https://t3aas--christopherschmitt.repl.co/?cmd=%s&tok=%s' % (move, init['token'])).json()
+    
+    print(board['msg'])
+    print(board['state'][0:3])
+    print(board['state'][3:6])
+    print(board['state'][6:9])
+```
