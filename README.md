@@ -11,7 +11,7 @@ With T3AAS, you can do such impressive things as:
 I was challanged to build the most useless API on the web, check out some other entries [here](https://hackclub.com/challenge/)
 
 ## How
-Run your own instance of T3AAS by running `node index.js` in a cloned repository (defaults to port `3000`) or use the public endpoint at [https://t3aas--christopherschmitt.repl.co/](https://t3aas--christopherschmitt.repl.co/) (hosted by [repl.it](https://repl.it/)).
+Run your own instance of T3AAS by running `node src/index.js` in a cloned repository (defaults to port `3000`) or use the public endpoint at [https://t3aas--christopherschmitt.repl.co/](https://t3aas--christopherschmitt.repl.co/) (hosted by [repl.it](https://repl.it/)).
 
 ### Usage
 All responses are JSON objects and take the form of:
