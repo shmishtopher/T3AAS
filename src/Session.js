@@ -7,7 +7,7 @@ class Session {
 
   resetTimer (lobby) {
     clearTimeout(this.gc)
-    this.gc = setTimeout(() => delete lobby[token], 60000)
+    this.gc = setTimeout(() => delete lobby[this.token], 60000)
   }
 
   didWin (flag) {
