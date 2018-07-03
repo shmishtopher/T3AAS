@@ -5,7 +5,7 @@ The easiest, most advanced, Tic-Tac-Toe API on the web.
 With T3AAS, you can do such impressive things as:
   * Play Tic-Tac-Toe through a REST API
   * Loose Tic-Tac-Toe through a REST API
-  * Integrate Tic-Tac-Toe in your app (through a REST API)
+  * Integrate Tic-Tac-Toe into your app (through a REST API)
 
 ## Why
 I was challanged to build the most useless API on the web, check out some other entries [here](https://hackclub.com/challenge/)
