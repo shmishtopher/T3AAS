@@ -8,7 +8,7 @@ With T3AAS, you can do such impressive things as:
   * Integrate Tic-Tac-Toe into your app (through a REST API)
 
 ## Why
-I was challanged to build the most useless API on the web, check out some other entries [here](https://hackclub.com/challenge/)
+I was challenged to build the most useless API on the web, check out some other entries [here](https://hackclub.com/challenge/)
 
 ## How
 Run your own instance of T3AAS by running `node src/index.js` in a cloned repository (defaults to port `3000`) or use the public endpoint at [https://t3aas--christopherschmitt.repl.co/](https://t3aas--christopherschmitt.repl.co/) (hosted by [repl.it](https://repl.it/)).
