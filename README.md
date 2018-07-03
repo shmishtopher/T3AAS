@@ -37,3 +37,19 @@ If you wish to begin a new session, omit the `tok=<TOKEN>` parameter and set you
 `https://t3aas--christopherschmitt.repl.co/?cmd=new`
 
 This will return a JSON response with a unique token with you will need to provide to every subsequent command.  Tokens will expire after 60 seconds if not used. (Performing a move will refresh this timer)
+
+## Quickstart
+```JavaScript
+// A demo using JS and fetch
+
+async function main () {
+  const token = await fetch('https://t3aas--christopherschmitt.repl.co/?cmd=new')
+    .then(res => res.json())
+    .then(res => res.token)
+    .catch(console.log)
+  
+  console.log(token)
+}
+
+main()
+```
