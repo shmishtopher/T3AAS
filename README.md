@@ -31,3 +31,9 @@ All interaction with the API is done through URL query parameters that take the 
 For example, a move to space `0` might look like this:
 
 `https://t3aas--christopherschmitt.repl.co/?cmd=0&tok=072949F3E6A72B5426DDF8B2`
+
+If you wish to begin a new session, omit the `tok=<TOKEN>` parameter and set your command paramter to `cmd=new`:
+
+`https://t3aas--christopherschmitt.repl.co/?cmd=new`
+
+This will return a JSON response with a unique token with you will need to provide to every subsequent command.  Tokens will expire after 60 seconds if not used. (Performing a move will refresh this timer)
