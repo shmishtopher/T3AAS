@@ -32,7 +32,7 @@ For example, a move to space `0` might look like this:
 
 `https://t3aas--christopherschmitt.repl.co/?cmd=0&tok=072949F3E6A72B5426DDF8B2`
 
-If you wish to begin a new session, omit the `tok=<TOKEN>` parameter and set your command paramter to `cmd=new`:
+If you wish to begin a new session, omit the `tok=<TOKEN>` parameter and set your command parameter to `cmd=new`:
 
 `https://t3aas--christopherschmitt.repl.co/?cmd=new`
 
